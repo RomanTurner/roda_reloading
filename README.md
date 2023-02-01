@@ -4,11 +4,11 @@ This project was practice setting up Zeitwerk with Dry-System and Roda for the p
 
 I arrived at this point for as an exploration on creating my own framework using Roda. I want to be able to share this with other people, and the only way that I will be able to do that is if I can offer what other frameworks in our community offer. In this project, that is specifically the feature of code reloading.
 
-The path getting here was a bumpy one, and there are a lot of things to still work out. [There is a tale to be told](##story-time)
+The path getting here was a bumpy one, and there are a lot of things to still work out. [There is a tale to be told](#story-time)
 
 The directory structure is not the traditional "MVC" or bucket system. It is based on allocating resources and the locality of behavior. It looks like such:
 
-```ruby
+```bash
 project
 │   README.md
 │   app.rb
